@@ -36,7 +36,18 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
+up.bat
+newb.bat
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Firebase
+.firebase
+*-debug.log
+.runtimeconfig.json
+
+# Ignore env files
+.env
+src/environments/env.json
