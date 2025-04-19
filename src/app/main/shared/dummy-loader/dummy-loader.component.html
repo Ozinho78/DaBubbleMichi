@@ -1,11 +1,11 @@
 <!-- 📄 dummy-loader.component.html -->
 <div class="dummy-loader">
   <button (click)="loadDummyData()" [disabled]="isLoading">
-    {{ isLoading ? '⏳ Lädt...' : '📦 Dummy-Daten laden' }}
+    {{ isLoading ? '⏳ Lädt...' : '📦 Laden' }}
   </button>
 
   <button (click)="deleteDummyData()" [disabled]="isLoading" style="margin-left: 1rem; background-color: #e53935">
-    {{ isLoading ? '⏳ Löscht...' : '🗑️ Dummy-Daten löschen' }}
+    {{ isLoading ? '⏳ Löscht...' : '🗑️ Löschen' }}
   </button>
 
   <div *ngIf="progressMessage" class="progress-msg">

@@ -1,11 +1,15 @@
 // 🎨 dummy-loader.component.scss
 .dummy-loader {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   button {
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
     background-color: #444df2;
     color: white;
     border: none;
@@ -14,7 +18,7 @@
   }
 
   .progress-msg {
-    margin-top: 1rem;
+    margin-top: 0.25rem;
     font-style: italic;
     color: #444;
   }
