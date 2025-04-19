@@ -27,13 +27,14 @@ import { FirestoreService } from '../../../services/firestore.service';
 import { PresenceService } from '../../../services/presence.service';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { DummyLoaderComponent } from "../shared/dummy-loader/dummy-loader.component";
 
 @Injectable({
   providedIn: 'root',
 })
 @Component({
   selector: 'app-devspace',
-  imports: [CommonModule, RouterModule, FormsModule, AddChannelComponent],
+  imports: [CommonModule, RouterModule, FormsModule, AddChannelComponent, DummyLoaderComponent],
   templateUrl: './devspace.component.html',
   styleUrl: './devspace.component.scss',
   animations: [

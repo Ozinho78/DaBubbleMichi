@@ -1,12 +1,12 @@
 // 📁 dummy-import.service.ts
 import { Injectable } from '@angular/core';
-import { AngularFirestore } from '@angular/fire/compat/firestore';
+import { Firestore, doc, setDoc } from '@angular/fire/firestore';
 
 @Injectable({
   providedIn: 'root'
 })
 export class DummyImportService {
-  constructor(private firestore: AngularFirestore) {}
+  constructor(private firestore: Firestore) {}
 
   async importDummyData(onProgress?: (msg: string) => void): Promise<void> {
     const response = await fetch('/data/dummy-data-from-models.json');
@@ -17,13 +17,15 @@ export class DummyImportService {
 
     // Users importieren
     for (const user of data.users) {
-      await this.firestore.collection('users').doc(user.docId).set(user);
+      const userRef = doc(this.firestore, `users/${user.docId}`);
+      await setDoc(userRef, user);
       onProgress?.(`User ${++step}/${total}: ${user.name}`);
     }
 
     // Channels importieren
     for (const channel of data.channels) {
-      await this.firestore.collection('channels').doc(channel.docId).set(channel);
+      const channelRef = doc(this.firestore, `channels/${channel.docId}`);
+      await setDoc(channelRef, channel);
       onProgress?.(`Channel ${++step}/${total}: ${channel.name}`);
     }
 
