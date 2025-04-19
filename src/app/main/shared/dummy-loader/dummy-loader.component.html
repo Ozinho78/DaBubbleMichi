@@ -1,0 +1,10 @@
+// 📄 dummy-loader.component.html
+<div class="dummy-loader">
+  <button (click)="loadDummyData()" [disabled]="isLoading">
+    {{ isLoading ? '⏳ Lädt...' : '📦 Dummy-Daten laden' }}
+  </button>
+
+  <div *ngIf="progressMessage" class="progress-msg">
+    {{ progressMessage }}
+  </div>
+</div>

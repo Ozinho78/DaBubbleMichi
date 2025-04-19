@@ -2,7 +2,6 @@ import { EventEmitter, Output, Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Observable, of } from 'rxjs';
 import { Router, ActivatedRoute } from '@angular/router';
-import { User } from '../../../../models/user.model';
 import { ChatService } from '../../../../services/direct-meassage.service';
 
 @Component({
