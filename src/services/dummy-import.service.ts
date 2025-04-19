@@ -1,15 +1,18 @@
 // 📁 dummy-import.service.ts
 import { Injectable } from '@angular/core';
-import { Firestore, collection, deleteDoc, doc, getDocs, setDoc } from '@angular/fire/firestore';
+import { Firestore, deleteDoc, doc, setDoc } from '@angular/fire/firestore';
 
 @Injectable({
   providedIn: 'root'
 })
 export class DummyImportService {
+  dataUrl = '/data/dummy-data.json';
+
+
   constructor(private firestore: Firestore) {}
 
   async importDummyData(onProgress?: (msg: string) => void): Promise<void> {
-    const response = await fetch('/data/dummy-data.json');
+    const response = await fetch(this.dataUrl);
     const data = await response.json();
 
     const fixedMembers = ["4s2jsCO69B0WMFs5PKDC", "X0cbEAhQNCSxOUCgoMb0"];
@@ -29,8 +32,8 @@ export class DummyImportService {
       const channel = data.channels[i];
       const mustInclude = fixedMembers[i % 2];
 
-      if (!channel.members.includes(mustInclude)) {
-        channel.members.push(mustInclude);
+      if (!channel.member.includes(mustInclude)) {
+        channel.member.push(mustInclude);
       }
 
       const channelRef = doc(this.firestore, `channels/${channel.docId}`);
@@ -42,7 +45,7 @@ export class DummyImportService {
   }
 
   async deleteAllDummyData(onProgress?: (msg: string) => void): Promise<void> {
-    const response = await fetch('/data/dummy-data.json');
+    const response = await fetch(this.dataUrl);
     const data = await response.json();
 
     let step = 0;
