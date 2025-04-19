@@ -26,4 +26,15 @@ export class DummyLoaderComponent {
 
     this.isLoading = false;
   }
+
+  async deleteDummyData() {
+    this.isLoading = true;
+    this.progressMessage = '🗑️ Lösche Dummy-Daten aus JSON...';
+
+    await this.dummyService.deleteAllDummyData((msg) => {
+      this.progressMessage = msg;
+    });
+
+    this.isLoading = false;
+  }
 }

@@ -4,6 +4,10 @@
     {{ isLoading ? '⏳ Lädt...' : '📦 Dummy-Daten laden' }}
   </button>
 
+  <button (click)="deleteDummyData()" [disabled]="isLoading" style="margin-left: 1rem; background-color: #e53935">
+    {{ isLoading ? '⏳ Löscht...' : '🗑️ Dummy-Daten löschen' }}
+  </button>
+
   <div *ngIf="progressMessage" class="progress-msg">
     {{ progressMessage }}
   </div>

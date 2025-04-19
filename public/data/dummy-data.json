@@ -1,0 +1,752 @@
+{
+  "users": [
+    {
+      "docId": "0d5abdf8-056b-4b4e-9362-1e9a88b477b5",
+      "name": "Valentina Hernández",
+      "email": "valentina.hernández0@example.com",
+      "avatar": "avatar6.png",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.349856"
+    },
+    {
+      "docId": "50dd19d5-8efd-4c25-821b-ac7044000fc3",
+      "name": "Leon Johnson",
+      "email": "leon.johnson1@example.com",
+      "avatar": "avatar2.png",
+      "role": "member",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.349981"
+    },
+    {
+      "docId": "3002481f-e11d-4dc3-a0a0-412342d97582",
+      "name": "Leon Martínez",
+      "email": "leon.martínez2@example.com",
+      "avatar": "avatar1.png",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.350100"
+    },
+    {
+      "docId": "fe7eeed7-6629-4275-8d2f-0951fe28c993",
+      "name": "Liam Martínez",
+      "email": "liam.martínez3@example.com",
+      "avatar": "avatar6.png",
+      "role": "member",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.350243"
+    },
+    {
+      "docId": "98ea6e3e-5322-41df-b0c1-3de9895c317f",
+      "name": "Sofía García",
+      "email": "sofía.garcía4@example.com",
+      "avatar": "avatar3.png",
+      "role": "guest",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.350288"
+    },
+    {
+      "docId": "e4814df4-a298-479a-92f0-1178c2931857",
+      "name": "Lukas Hernández",
+      "email": "lukas.hernández5@example.com",
+      "avatar": "avatar2.png",
+      "role": "guest",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.350326"
+    },
+    {
+      "docId": "0f460e48-0ca1-4352-a419-c57a6b175fd8",
+      "name": "Valentina Hoffmann",
+      "email": "valentina.hoffmann6@example.com",
+      "avatar": "avatar5.png",
+      "role": "guest",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.350466"
+    },
+    {
+      "docId": "3c35911e-c562-4bdc-afa0-48014883e276",
+      "name": "Mia Schmidt",
+      "email": "mia.schmidt7@example.com",
+      "avatar": "avatar2.png",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.350510"
+    },
+    {
+      "docId": "5a060dc8-a9f5-4515-98b5-56c840580f13",
+      "name": "James López",
+      "email": "james.lópez8@example.com",
+      "avatar": "avatar3.png",
+      "role": "guest",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.350595"
+    },
+    {
+      "docId": "ed713883-7e40-47c9-82cf-19171dc88485",
+      "name": "Mateo González",
+      "email": "mateo.gonzález9@example.com",
+      "avatar": "avatar6.png",
+      "role": "member",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.350684"
+    },
+    {
+      "docId": "46e0c32c-3cf6-4b91-9275-6f2980cf1521",
+      "name": "Emily Weber",
+      "email": "emily.weber10@example.com",
+      "avatar": "avatar5.png",
+      "role": "member",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351278"
+    },
+    {
+      "docId": "e679d3e1-8d3e-4701-8c56-bfa6fcbae3f7",
+      "name": "Emily García",
+      "email": "emily.garcía11@example.com",
+      "avatar": "avatar2.png",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351330"
+    },
+    {
+      "docId": "b81cf632-c909-44dc-8510-8199c292e140",
+      "name": "Sofía García",
+      "email": "sofía.garcía12@example.com",
+      "avatar": "avatar5.png",
+      "role": "guest",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351356"
+    },
+    {
+      "docId": "b89abb2e-f517-42b0-8cb2-d4a14cf9ea87",
+      "name": "Diego Smith",
+      "email": "diego.smith13@example.com",
+      "avatar": "avatar2.png",
+      "role": "member",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351367"
+    },
+    {
+      "docId": "13f3f534-6d99-41a1-8113-ab78016f84df",
+      "name": "Leon Taylor",
+      "email": "leon.taylor14@example.com",
+      "avatar": "avatar6.png",
+      "role": "guest",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351378"
+    },
+    {
+      "docId": "2947b808-6534-4ff5-b79c-131b95ea3478",
+      "name": "Diego Williams",
+      "email": "diego.williams15@example.com",
+      "avatar": "avatar5.png",
+      "role": "member",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351402"
+    },
+    {
+      "docId": "6afa64cb-d0bc-422b-beed-0322126838c7",
+      "name": "Ben Schmidt",
+      "email": "ben.schmidt16@example.com",
+      "avatar": "avatar4.png",
+      "role": "guest",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351421"
+    },
+    {
+      "docId": "796a3f5d-24c4-49c4-86b6-fb39858dfd88",
+      "name": "Isabella Martínez",
+      "email": "isabella.martínez17@example.com",
+      "avatar": "avatar4.png",
+      "role": "guest",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351434"
+    },
+    {
+      "docId": "595d0a3c-762b-4678-93b2-b3165e8a2b2e",
+      "name": "Leon Schmidt",
+      "email": "leon.schmidt18@example.com",
+      "avatar": "avatar5.png",
+      "role": "member",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351444"
+    },
+    {
+      "docId": "18ee3915-af73-487d-a200-8bb55f3c1562",
+      "name": "Mia Johnson",
+      "email": "mia.johnson19@example.com",
+      "avatar": "avatar1.png",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351454"
+    },
+    {
+      "docId": "b1e908f2-db17-4914-bac7-a4eacf780a1a",
+      "name": "Olivia López",
+      "email": "olivia.lópez20@example.com",
+      "avatar": "avatar1.png",
+      "role": "guest",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351464"
+    },
+    {
+      "docId": "a7c9ea12-cb19-4a63-ad72-ba76f88c7661",
+      "name": "Mia Brown",
+      "email": "mia.brown21@example.com",
+      "avatar": "avatar4.png",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351475"
+    },
+    {
+      "docId": "822c781a-57de-4514-a2d9-43fb58ab164d",
+      "name": "Sofia Weber",
+      "email": "sofia.weber22@example.com",
+      "avatar": "avatar5.png",
+      "role": "guest",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351485"
+    },
+    {
+      "docId": "66c76c81-1e26-4232-ab20-911b7af936f3",
+      "name": "Isabella Brown",
+      "email": "isabella.brown23@example.com",
+      "avatar": "avatar6.png",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351495"
+    },
+    {
+      "docId": "a5e4fca6-27b8-438b-9a5e-ba47143c56d4",
+      "name": "Noah Johnson",
+      "email": "noah.johnson24@example.com",
+      "avatar": "avatar2.png",
+      "role": "member",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351505"
+    },
+    {
+      "docId": "a6b9f9dc-cf10-4ea2-9214-e2b1f1de04fc",
+      "name": "Camila Fischer",
+      "email": "camila.fischer25@example.com",
+      "avatar": "avatar4.png",
+      "role": "guest",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351516"
+    },
+    {
+      "docId": "51a1b783-adbb-4ebd-9622-f4d891fd33db",
+      "name": "Olivia Hernández",
+      "email": "olivia.hernández26@example.com",
+      "avatar": "avatar2.png",
+      "role": "member",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351678"
+    },
+    {
+      "docId": "3c5b5550-7c45-4dc9-bcf3-941aaba93e6e",
+      "name": "Sofía Johnson",
+      "email": "sofía.johnson27@example.com",
+      "avatar": "avatar6.png",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351717"
+    },
+    {
+      "docId": "6780fe55-2b6f-40c2-9106-d4834e071bc7",
+      "name": "Lukas García",
+      "email": "lukas.garcía28@example.com",
+      "avatar": "avatar2.png",
+      "role": "guest",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351751"
+    },
+    {
+      "docId": "cd194225-9d23-4994-a4d3-2ed2fe1b1ae5",
+      "name": "Lukas Taylor",
+      "email": "lukas.taylor29@example.com",
+      "avatar": "avatar3.png",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351780"
+    },
+    {
+      "docId": "182cb79c-8d11-4e12-ac94-51a4f60a41ca",
+      "name": "Mateo González",
+      "email": "mateo.gonzález30@example.com",
+      "avatar": "avatar6.png",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351795"
+    },
+    {
+      "docId": "906705ac-f99f-43f8-aac1-370a35d26be2",
+      "name": "Noah García",
+      "email": "noah.garcía31@example.com",
+      "avatar": "avatar5.png",
+      "role": "member",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351806"
+    },
+    {
+      "docId": "fdf38b9a-c5ab-4336-af00-51cef1c7f9a8",
+      "name": "Sofia Schmidt",
+      "email": "sofia.schmidt32@example.com",
+      "avatar": "avatar3.png",
+      "role": "member",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351816"
+    },
+    {
+      "docId": "65267a6c-c17a-47fc-9708-7e0fc3c095bb",
+      "name": "Mateo García",
+      "email": "mateo.garcía33@example.com",
+      "avatar": "avatar6.png",
+      "role": "guest",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351828"
+    },
+    {
+      "docId": "d676cafe-e561-4a88-b70b-6bfac470c398",
+      "name": "James Fischer",
+      "email": "james.fischer34@example.com",
+      "avatar": "avatar5.png",
+      "role": "guest",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351838"
+    },
+    {
+      "docId": "6a409944-77cc-41d5-ac54-ac78b68c0cd0",
+      "name": "Leon López",
+      "email": "leon.lópez35@example.com",
+      "avatar": "avatar3.png",
+      "role": "guest",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351849"
+    },
+    {
+      "docId": "38bfd8fe-f75d-4a21-a328-573c9c07602d",
+      "name": "Olivia López",
+      "email": "olivia.lópez36@example.com",
+      "avatar": "avatar1.png",
+      "role": "member",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351859"
+    },
+    {
+      "docId": "d9708e92-64f1-46a0-a955-a8a07c758c62",
+      "name": "Sofía Johnson",
+      "email": "sofía.johnson37@example.com",
+      "avatar": "avatar1.png",
+      "role": "member",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351869"
+    },
+    {
+      "docId": "3cdd23be-187d-45ff-b4a4-598390cc8dd4",
+      "name": "Emily Johnson",
+      "email": "emily.johnson38@example.com",
+      "avatar": "avatar1.png",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351879"
+    },
+    {
+      "docId": "4537fd42-867b-42c5-b32c-f510e0635ba3",
+      "name": "Liam González",
+      "email": "liam.gonzález39@example.com",
+      "avatar": "avatar2.png",
+      "role": "guest",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351889"
+    },
+    {
+      "docId": "d3fb3661-a776-4135-92dd-f37dea2c6d7b",
+      "name": "Sofia Weber",
+      "email": "sofia.weber40@example.com",
+      "avatar": "avatar2.png",
+      "role": "guest",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351900"
+    },
+    {
+      "docId": "650d752e-e490-4d7b-923b-57d6b198b0d6",
+      "name": "Mia García",
+      "email": "mia.garcía41@example.com",
+      "avatar": "avatar5.png",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351910"
+    },
+    {
+      "docId": "81752f42-3c74-4b23-96aa-9f89c8f879a3",
+      "name": "Emma Müller",
+      "email": "emma.müller42@example.com",
+      "avatar": "avatar5.png",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351921"
+    },
+    {
+      "docId": "3b453a68-b3de-4f37-9bf0-b50a0228ef02",
+      "name": "Mateo González",
+      "email": "mateo.gonzález43@example.com",
+      "avatar": "avatar5.png",
+      "role": "guest",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351930"
+    },
+    {
+      "docId": "775b4e84-080f-4ac8-8dbc-46207eef6932",
+      "name": "Leon Hernández",
+      "email": "leon.hernández44@example.com",
+      "avatar": "avatar3.png",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351941"
+    },
+    {
+      "docId": "13d6070e-636c-4bcf-bdc3-701dbb11b709",
+      "name": "Luis Smith",
+      "email": "luis.smith45@example.com",
+      "avatar": "avatar2.png",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351951"
+    },
+    {
+      "docId": "ef9eda82-2159-411a-9dba-fb9eb0cf300c",
+      "name": "Mateo Hernández",
+      "email": "mateo.hernández46@example.com",
+      "avatar": "avatar5.png",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351961"
+    },
+    {
+      "docId": "53e4303e-406e-4636-8d44-5279a270d4f6",
+      "name": "Valentina Martínez",
+      "email": "valentina.martínez47@example.com",
+      "avatar": "avatar1.png",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351971"
+    },
+    {
+      "docId": "bf8b8d01-e9cd-4036-bbea-86bbc17da773",
+      "name": "Luis Fischer",
+      "email": "luis.fischer48@example.com",
+      "avatar": "avatar1.png",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351981"
+    },
+    {
+      "docId": "e48b07bc-846e-4f53-90a8-15f5deaab4f8",
+      "name": "Luis Müller",
+      "email": "luis.müller49@example.com",
+      "avatar": "avatar6.png",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-04-19T09:26:49.351992"
+    }
+  ],
+  "channels": [
+    {
+      "docId": "52a0f645-5e03-4583-b7f8-4f0db7a0910e",
+      "name": "Angular",
+      "description": "Diskussionen rund um Angular",
+      "type": "public",
+      "createdAt": "2025-04-19T09:39:25.547885",
+      "member": [
+        "13f3f534-6d99-41a1-8113-ab78016f84df",
+        "bf8b8d01-e9cd-4036-bbea-86bbc17da773",
+        "d676cafe-e561-4a88-b70b-6bfac470c398",
+        "0f460e48-0ca1-4352-a419-c57a6b175fd8",
+        "595d0a3c-762b-4678-93b2-b3165e8a2b2e",
+        "65267a6c-c17a-47fc-9708-7e0fc3c095bb",
+        "3cdd23be-187d-45ff-b4a4-598390cc8dd4",
+        "4537fd42-867b-42c5-b32c-f510e0635ba3"
+      ]
+    },
+    {
+      "docId": "3e71add7-ff1b-4353-9c10-d56c10cf5ff5",
+      "name": "Stricken",
+      "description": "Diskussionen rund um Stricken",
+      "type": "private",
+      "createdAt": "2025-04-19T09:39:25.548275",
+      "member": [
+        "2947b808-6534-4ff5-b79c-131b95ea3478",
+        "46e0c32c-3cf6-4b91-9275-6f2980cf1521",
+        "6afa64cb-d0bc-422b-beed-0322126838c7",
+        "b81cf632-c909-44dc-8510-8199c292e140",
+        "65267a6c-c17a-47fc-9708-7e0fc3c095bb",
+        "a7c9ea12-cb19-4a63-ad72-ba76f88c7661"
+      ]
+    },
+    {
+      "docId": "452e3970-b815-4e62-8516-20ab344346ba",
+      "name": "Laufgruppe",
+      "description": "Diskussionen rund um Laufgruppe",
+      "type": "private",
+      "createdAt": "2025-04-19T09:39:25.548668",
+      "member": [
+        "e4814df4-a298-479a-92f0-1178c2931857",
+        "13f3f534-6d99-41a1-8113-ab78016f84df",
+        "18ee3915-af73-487d-a200-8bb55f3c1562",
+        "5a060dc8-a9f5-4515-98b5-56c840580f13",
+        "595d0a3c-762b-4678-93b2-b3165e8a2b2e",
+        "65267a6c-c17a-47fc-9708-7e0fc3c095bb"
+      ]
+    },
+    {
+      "docId": "bca5e7a3-f927-4d0c-95b5-e3acec9741f8",
+      "name": "Frontend",
+      "description": "Diskussionen rund um Frontend",
+      "type": "public",
+      "createdAt": "2025-04-19T09:39:25.548743",
+      "member": [
+        "2947b808-6534-4ff5-b79c-131b95ea3478",
+        "13f3f534-6d99-41a1-8113-ab78016f84df",
+        "775b4e84-080f-4ac8-8dbc-46207eef6932",
+        "51a1b783-adbb-4ebd-9622-f4d891fd33db",
+        "d676cafe-e561-4a88-b70b-6bfac470c398"
+      ]
+    },
+    {
+      "docId": "e4f98596-8bc9-41fc-b5d7-8de20aa7afec",
+      "name": "Backend",
+      "description": "Diskussionen rund um Backend",
+      "type": "private",
+      "createdAt": "2025-04-19T09:39:25.548885",
+      "member": [
+        "0f460e48-0ca1-4352-a419-c57a6b175fd8",
+        "65267a6c-c17a-47fc-9708-7e0fc3c095bb",
+        "18ee3915-af73-487d-a200-8bb55f3c1562",
+        "b81cf632-c909-44dc-8510-8199c292e140",
+        "38bfd8fe-f75d-4a21-a328-573c9c07602d",
+        "4537fd42-867b-42c5-b32c-f510e0635ba3",
+        "3c35911e-c562-4bdc-afa0-48014883e276"
+      ]
+    },
+    {
+      "docId": "ef69db70-eb9b-45c2-a12d-54a8996cdfbc",
+      "name": "UX/UI",
+      "description": "Diskussionen rund um UX/UI",
+      "type": "public",
+      "createdAt": "2025-04-19T09:39:25.548949",
+      "member": [
+        "18ee3915-af73-487d-a200-8bb55f3c1562",
+        "a7c9ea12-cb19-4a63-ad72-ba76f88c7661",
+        "b81cf632-c909-44dc-8510-8199c292e140",
+        "5a060dc8-a9f5-4515-98b5-56c840580f13",
+        "ef9eda82-2159-411a-9dba-fb9eb0cf300c"
+      ]
+    },
+    {
+      "docId": "e28f3e6f-43bb-4e9f-a82b-c3679f390e6f",
+      "name": "Kaffee-Ecke",
+      "description": "Diskussionen rund um Kaffee-Ecke",
+      "type": "public",
+      "createdAt": "2025-04-19T09:39:25.549101",
+      "member": [
+        "3cdd23be-187d-45ff-b4a4-598390cc8dd4",
+        "b1e908f2-db17-4914-bac7-a4eacf780a1a",
+        "650d752e-e490-4d7b-923b-57d6b198b0d6",
+        "3c35911e-c562-4bdc-afa0-48014883e276",
+        "cd194225-9d23-4994-a4d3-2ed2fe1b1ae5",
+        "a5e4fca6-27b8-438b-9a5e-ba47143c56d4"
+      ]
+    },
+    {
+      "docId": "a5b2c40f-1654-483d-b0ce-ca03c540fda7",
+      "name": "Projektmanagement",
+      "description": "Diskussionen rund um Projektmanagement",
+      "type": "public",
+      "createdAt": "2025-04-19T09:39:25.549338",
+      "member": [
+        "822c781a-57de-4514-a2d9-43fb58ab164d",
+        "e4814df4-a298-479a-92f0-1178c2931857",
+        "53e4303e-406e-4636-8d44-5279a270d4f6",
+        "18ee3915-af73-487d-a200-8bb55f3c1562",
+        "3c5b5550-7c45-4dc9-bcf3-941aaba93e6e"
+      ]
+    },
+    {
+      "docId": "193908f5-359c-41b0-b669-e0d2e7fd2f00",
+      "name": "DevOps",
+      "description": "Diskussionen rund um DevOps",
+      "type": "public",
+      "createdAt": "2025-04-19T09:39:25.549404",
+      "member": [
+        "0f460e48-0ca1-4352-a419-c57a6b175fd8",
+        "18ee3915-af73-487d-a200-8bb55f3c1562",
+        "2947b808-6534-4ff5-b79c-131b95ea3478",
+        "3c5b5550-7c45-4dc9-bcf3-941aaba93e6e"
+      ]
+    },
+    {
+      "docId": "602a3c87-d308-44e4-acc4-8817a0192721",
+      "name": "Sport",
+      "description": "Diskussionen rund um Sport",
+      "type": "public",
+      "createdAt": "2025-04-19T09:39:25.549610",
+      "member": [
+        "18ee3915-af73-487d-a200-8bb55f3c1562",
+        "a6b9f9dc-cf10-4ea2-9214-e2b1f1de04fc",
+        "81752f42-3c74-4b23-96aa-9f89c8f879a3",
+        "fdf38b9a-c5ab-4336-af00-51cef1c7f9a8"
+      ]
+    },
+    {
+      "docId": "1f318230-b28d-49f8-bfd1-937bdfe9cb97",
+      "name": "Kochen",
+      "description": "Diskussionen rund um Kochen",
+      "type": "public",
+      "createdAt": "2025-04-19T09:39:25.549942",
+      "member": [
+        "6780fe55-2b6f-40c2-9106-d4834e071bc7",
+        "51a1b783-adbb-4ebd-9622-f4d891fd33db",
+        "fdf38b9a-c5ab-4336-af00-51cef1c7f9a8",
+        "a5e4fca6-27b8-438b-9a5e-ba47143c56d4",
+        "e48b07bc-846e-4f53-90a8-15f5deaab4f8"
+      ]
+    },
+    {
+      "docId": "0f12cb36-2348-40df-9930-598aba85986e",
+      "name": "Fotografie",
+      "description": "Diskussionen rund um Fotografie",
+      "type": "private",
+      "createdAt": "2025-04-19T09:39:25.549996",
+      "member": [
+        "46e0c32c-3cf6-4b91-9275-6f2980cf1521",
+        "b81cf632-c909-44dc-8510-8199c292e140",
+        "e4814df4-a298-479a-92f0-1178c2931857",
+        "4537fd42-867b-42c5-b32c-f510e0635ba3",
+        "e679d3e1-8d3e-4701-8c56-bfa6fcbae3f7",
+        "66c76c81-1e26-4232-ab20-911b7af936f3",
+        "38bfd8fe-f75d-4a21-a328-573c9c07602d"
+      ]
+    },
+    {
+      "docId": "587a1c60-8726-4e79-ad5d-f0e24ecdeee3",
+      "name": "Design",
+      "description": "Diskussionen rund um Design",
+      "type": "private",
+      "createdAt": "2025-04-19T09:39:25.550036",
+      "member": [
+        "46e0c32c-3cf6-4b91-9275-6f2980cf1521",
+        "775b4e84-080f-4ac8-8dbc-46207eef6932",
+        "50dd19d5-8efd-4c25-821b-ac7044000fc3",
+        "81752f42-3c74-4b23-96aa-9f89c8f879a3"
+      ]
+    },
+    {
+      "docId": "78644083-991e-4b32-b65e-744c78697fcd",
+      "name": "Reisen",
+      "description": "Diskussionen rund um Reisen",
+      "type": "private",
+      "createdAt": "2025-04-19T09:39:25.550051",
+      "member": [
+        "2947b808-6534-4ff5-b79c-131b95ea3478",
+        "775b4e84-080f-4ac8-8dbc-46207eef6932",
+        "0d5abdf8-056b-4b4e-9362-1e9a88b477b5",
+        "182cb79c-8d11-4e12-ac94-51a4f60a41ca",
+        "650d752e-e490-4d7b-923b-57d6b198b0d6",
+        "b1e908f2-db17-4914-bac7-a4eacf780a1a",
+        "66c76c81-1e26-4232-ab20-911b7af936f3"
+      ]
+    },
+    {
+      "docId": "718a2d29-b37e-4ac5-961c-8356fb7b6788",
+      "name": "Gaming",
+      "description": "Diskussionen rund um Gaming",
+      "type": "public",
+      "createdAt": "2025-04-19T09:39:25.550064",
+      "member": [
+        "0f460e48-0ca1-4352-a419-c57a6b175fd8",
+        "3c5b5550-7c45-4dc9-bcf3-941aaba93e6e",
+        "a6b9f9dc-cf10-4ea2-9214-e2b1f1de04fc",
+        "fe7eeed7-6629-4275-8d2f-0951fe28c993"
+      ]
+    },
+    {
+      "docId": "681ef09a-17c4-4d35-a1aa-aadab0dc7c4d",
+      "name": "Filme",
+      "description": "Diskussionen rund um Filme",
+      "type": "public",
+      "createdAt": "2025-04-19T09:39:25.550079",
+      "member": [
+        "3c35911e-c562-4bdc-afa0-48014883e276",
+        "775b4e84-080f-4ac8-8dbc-46207eef6932",
+        "6afa64cb-d0bc-422b-beed-0322126838c7",
+        "4537fd42-867b-42c5-b32c-f510e0635ba3",
+        "13d6070e-636c-4bcf-bdc3-701dbb11b709",
+        "46e0c32c-3cf6-4b91-9275-6f2980cf1521"
+      ]
+    },
+    {
+      "docId": "54e31103-54a9-4b6d-bfa0-4eefeb66f92a",
+      "name": "Musik",
+      "description": "Diskussionen rund um Musik",
+      "type": "public",
+      "createdAt": "2025-04-19T09:39:25.550094",
+      "member": [
+        "51a1b783-adbb-4ebd-9622-f4d891fd33db",
+        "6afa64cb-d0bc-422b-beed-0322126838c7",
+        "0f460e48-0ca1-4352-a419-c57a6b175fd8",
+        "2947b808-6534-4ff5-b79c-131b95ea3478",
+        "66c76c81-1e26-4232-ab20-911b7af936f3",
+        "65267a6c-c17a-47fc-9708-7e0fc3c095bb",
+        "b89abb2e-f517-42b0-8cb2-d4a14cf9ea87",
+        "e48b07bc-846e-4f53-90a8-15f5deaab4f8"
+      ]
+    },
+    {
+      "docId": "4a4d1ed2-646b-4472-8ea5-8752d8440f65",
+      "name": "Lesen",
+      "description": "Diskussionen rund um Lesen",
+      "type": "private",
+      "createdAt": "2025-04-19T09:39:25.550108",
+      "member": [
+        "3b453a68-b3de-4f37-9bf0-b50a0228ef02",
+        "a6b9f9dc-cf10-4ea2-9214-e2b1f1de04fc",
+        "50dd19d5-8efd-4c25-821b-ac7044000fc3",
+        "b89abb2e-f517-42b0-8cb2-d4a14cf9ea87",
+        "6780fe55-2b6f-40c2-9106-d4834e071bc7",
+        "822c781a-57de-4514-a2d9-43fb58ab164d",
+        "bf8b8d01-e9cd-4036-bbea-86bbc17da773"
+      ]
+    },
+    {
+      "docId": "999ebb29-72fa-473f-9747-b878ea288906",
+      "name": "Sprachen",
+      "description": "Diskussionen rund um Sprachen",
+      "type": "private",
+      "createdAt": "2025-04-19T09:39:25.550122",
+      "member": [
+        "b89abb2e-f517-42b0-8cb2-d4a14cf9ea87",
+        "6a409944-77cc-41d5-ac54-ac78b68c0cd0",
+        "e679d3e1-8d3e-4701-8c56-bfa6fcbae3f7",
+        "51a1b783-adbb-4ebd-9622-f4d891fd33db",
+        "0d5abdf8-056b-4b4e-9362-1e9a88b477b5",
+        "ed713883-7e40-47c9-82cf-19171dc88485",
+        "b1e908f2-db17-4914-bac7-a4eacf780a1a"
+      ]
+    },
+    {
+      "docId": "c1e0b204-e2d3-4ab8-99a0-1a9d7358f7b5",
+      "name": "Freizeit",
+      "description": "Diskussionen rund um Freizeit",
+      "type": "private",
+      "createdAt": "2025-04-19T09:39:25.550136",
+      "member": [
+        "fe7eeed7-6629-4275-8d2f-0951fe28c993",
+        "3cdd23be-187d-45ff-b4a4-598390cc8dd4",
+        "fdf38b9a-c5ab-4336-af00-51cef1c7f9a8",
+        "906705ac-f99f-43f8-aac1-370a35d26be2",
+        "a5e4fca6-27b8-438b-9a5e-ba47143c56d4"
+      ]
+    }
+  ]
+}
