@@ -1,0 +1,556 @@
+{
+  "users": [
+    {
+      "docId": "e4a785c9-76df-4930-8279-7f4dc3e1ec5d",
+      "name": "Jesse_1",
+      "email": "user1@example.com",
+      "avatar": "user5.png"
+    },
+    {
+      "docId": "e5a0ea5f-08e9-4849-a17d-d9a4d8576b29",
+      "name": "Taylor_2",
+      "email": "user2@example.com",
+      "avatar": "user10.png"
+    },
+    {
+      "docId": "05481dc6-9a4b-4f85-b1cf-ed68f1a09c02",
+      "name": "Sam_3",
+      "email": "user3@example.com",
+      "avatar": "user7.png"
+    },
+    {
+      "docId": "aed2f623-9099-414d-917d-031ce54195a4",
+      "name": "Morgan_4",
+      "email": "user4@example.com",
+      "avatar": "user8.png"
+    },
+    {
+      "docId": "4671ed0f-af6c-4719-9370-2916d3730843",
+      "name": "Jamie_5",
+      "email": "user5@example.com",
+      "avatar": "user10.png"
+    },
+    {
+      "docId": "6e930ae2-3fe7-45a5-b86f-a9c73d68eef9",
+      "name": "Alex_6",
+      "email": "user6@example.com",
+      "avatar": "user5.png"
+    },
+    {
+      "docId": "7d5798b4-8384-4b97-a309-bd92f6a91564",
+      "name": "Alex_7",
+      "email": "user7@example.com",
+      "avatar": "user6.png"
+    },
+    {
+      "docId": "f2fbac78-d2d4-4133-930c-c0227e1e0c21",
+      "name": "Robin_8",
+      "email": "user8@example.com",
+      "avatar": "user6.png"
+    },
+    {
+      "docId": "c6fb009a-87a2-4d3c-b8ed-06a659274e62",
+      "name": "Sam_9",
+      "email": "user9@example.com",
+      "avatar": "user3.png"
+    },
+    {
+      "docId": "a5cc50e0-6d36-4568-8047-855bf5621771",
+      "name": "Pat_10",
+      "email": "user10@example.com",
+      "avatar": "user5.png"
+    },
+    {
+      "docId": "e8ea16ab-dab8-4cf5-a6d1-28c46441005e",
+      "name": "Chris_11",
+      "email": "user11@example.com",
+      "avatar": "user3.png"
+    },
+    {
+      "docId": "1a786a14-7c02-4a90-8f5c-99d2127ce820",
+      "name": "Alex_12",
+      "email": "user12@example.com",
+      "avatar": "user1.png"
+    },
+    {
+      "docId": "2dac9c87-e69d-4f5f-931f-96daa24982ea",
+      "name": "Pat_13",
+      "email": "user13@example.com",
+      "avatar": "user10.png"
+    },
+    {
+      "docId": "2e9d09a2-6d93-4fe1-a501-f0b593fb21c4",
+      "name": "Jamie_14",
+      "email": "user14@example.com",
+      "avatar": "user8.png"
+    },
+    {
+      "docId": "33f31c3d-1942-4ba8-9956-a15a6dde0a5e",
+      "name": "Robin_15",
+      "email": "user15@example.com",
+      "avatar": "user10.png"
+    },
+    {
+      "docId": "eb0e5948-049a-4ce1-81f6-1dc52404d23c",
+      "name": "Robin_16",
+      "email": "user16@example.com",
+      "avatar": "user8.png"
+    },
+    {
+      "docId": "ecbfd547-ca29-4e59-b99c-dd18e03a6dfd",
+      "name": "Sam_17",
+      "email": "user17@example.com",
+      "avatar": "user7.png"
+    },
+    {
+      "docId": "7fa70652-d346-4b1c-b728-b454fb0971e7",
+      "name": "Chris_18",
+      "email": "user18@example.com",
+      "avatar": "user9.png"
+    },
+    {
+      "docId": "66294944-d5c4-43cc-ab29-3df5fa327f1d",
+      "name": "Chris_19",
+      "email": "user19@example.com",
+      "avatar": "user2.png"
+    },
+    {
+      "docId": "db5e49ed-b3d4-4cd8-bd15-c8a618f9c52f",
+      "name": "Jesse_20",
+      "email": "user20@example.com",
+      "avatar": "user10.png"
+    },
+    {
+      "docId": "bfeb5838-7d08-42c3-83ee-fdf87896c4b4",
+      "name": "Sam_21",
+      "email": "user21@example.com",
+      "avatar": "user1.png"
+    },
+    {
+      "docId": "92c4fdd7-5adf-48d5-a76f-5c807e804732",
+      "name": "Morgan_22",
+      "email": "user22@example.com",
+      "avatar": "user2.png"
+    },
+    {
+      "docId": "9a723771-fe21-4348-80ab-67723afb4a5c",
+      "name": "Taylor_23",
+      "email": "user23@example.com",
+      "avatar": "user5.png"
+    },
+    {
+      "docId": "aea2d574-814b-44bd-b07e-20b4484c34f0",
+      "name": "Jesse_24",
+      "email": "user24@example.com",
+      "avatar": "user7.png"
+    },
+    {
+      "docId": "d02b8360-f5b5-4f78-9b1d-6076553820aa",
+      "name": "Alex_25",
+      "email": "user25@example.com",
+      "avatar": "user10.png"
+    },
+    {
+      "docId": "d9950e1d-a50a-4588-a4c2-a1bc373099e7",
+      "name": "Taylor_26",
+      "email": "user26@example.com",
+      "avatar": "user8.png"
+    },
+    {
+      "docId": "230cc6b9-61c1-43d3-99af-0e159424979f",
+      "name": "Robin_27",
+      "email": "user27@example.com",
+      "avatar": "user1.png"
+    },
+    {
+      "docId": "55c23148-7a0e-4ece-bef3-8dc174a5f393",
+      "name": "Morgan_28",
+      "email": "user28@example.com",
+      "avatar": "user3.png"
+    },
+    {
+      "docId": "e6e34579-b5b3-4f11-a4d2-0e279aab6dd1",
+      "name": "Morgan_29",
+      "email": "user29@example.com",
+      "avatar": "user8.png"
+    },
+    {
+      "docId": "d98811be-6e7b-439c-9b02-d87c0689a865",
+      "name": "Robin_30",
+      "email": "user30@example.com",
+      "avatar": "user8.png"
+    },
+    {
+      "docId": "3f00e499-8c70-4e1f-8ce1-e1dfdb8b12e3",
+      "name": "Morgan_31",
+      "email": "user31@example.com",
+      "avatar": "user1.png"
+    },
+    {
+      "docId": "81d73d80-077d-4cdb-b135-f957a7a6e34a",
+      "name": "Pat_32",
+      "email": "user32@example.com",
+      "avatar": "user7.png"
+    },
+    {
+      "docId": "bfb0ec2c-f123-43a9-b4a0-8ed4948a128d",
+      "name": "Sam_33",
+      "email": "user33@example.com",
+      "avatar": "user4.png"
+    },
+    {
+      "docId": "769afe22-c1b4-4d57-bdb5-4e06d9511985",
+      "name": "Chris_34",
+      "email": "user34@example.com",
+      "avatar": "user2.png"
+    },
+    {
+      "docId": "14f8662a-8ff4-4f5f-8a96-30c3852ac87d",
+      "name": "Pat_35",
+      "email": "user35@example.com",
+      "avatar": "user4.png"
+    },
+    {
+      "docId": "ca2f6483-1863-42c2-80ff-0b26b5d941c5",
+      "name": "Robin_36",
+      "email": "user36@example.com",
+      "avatar": "user5.png"
+    },
+    {
+      "docId": "7331ab22-264b-4044-bdda-e0437d91b830",
+      "name": "Sam_37",
+      "email": "user37@example.com",
+      "avatar": "user8.png"
+    },
+    {
+      "docId": "5df95b80-638e-4aca-b5e4-2e662f5b0b06",
+      "name": "Pat_38",
+      "email": "user38@example.com",
+      "avatar": "user6.png"
+    },
+    {
+      "docId": "42eb703e-b6b2-40b2-88f5-876c3f215e24",
+      "name": "Pat_39",
+      "email": "user39@example.com",
+      "avatar": "user1.png"
+    },
+    {
+      "docId": "b2c47f04-a1f9-49f5-8953-68f36e095f44",
+      "name": "Taylor_40",
+      "email": "user40@example.com",
+      "avatar": "user1.png"
+    },
+    {
+      "docId": "99f06b7f-b121-4912-b236-4c52c047765d",
+      "name": "Taylor_41",
+      "email": "user41@example.com",
+      "avatar": "user7.png"
+    },
+    {
+      "docId": "b5c2eb31-8185-465b-a2c5-29d84d19987d",
+      "name": "Chris_42",
+      "email": "user42@example.com",
+      "avatar": "user10.png"
+    },
+    {
+      "docId": "e41cf409-a461-4300-ae04-793e2c349069",
+      "name": "Pat_43",
+      "email": "user43@example.com",
+      "avatar": "user8.png"
+    },
+    {
+      "docId": "fe3b2c3f-8534-4bc2-816a-9ed8ef48f204",
+      "name": "Sam_44",
+      "email": "user44@example.com",
+      "avatar": "user2.png"
+    },
+    {
+      "docId": "9cabe1fd-cafb-4ed7-b332-e954f1f572d1",
+      "name": "Morgan_45",
+      "email": "user45@example.com",
+      "avatar": "user3.png"
+    },
+    {
+      "docId": "07e22cbf-a294-480f-9354-391540e2f3c7",
+      "name": "Jamie_46",
+      "email": "user46@example.com",
+      "avatar": "user6.png"
+    },
+    {
+      "docId": "cfa56c72-6c5a-4c2f-860d-5aa2c352b915",
+      "name": "Jamie_47",
+      "email": "user47@example.com",
+      "avatar": "user5.png"
+    },
+    {
+      "docId": "23efdc44-1533-4cbb-b783-1e4cb2b4df93",
+      "name": "Jesse_48",
+      "email": "user48@example.com",
+      "avatar": "user7.png"
+    },
+    {
+      "docId": "c2a64774-70cf-4a27-a28a-8f621b236873",
+      "name": "Robin_49",
+      "email": "user49@example.com",
+      "avatar": "user3.png"
+    },
+    {
+      "docId": "e679dc8e-60a5-40aa-9137-021bd471e914",
+      "name": "Robin_50",
+      "email": "user50@example.com",
+      "avatar": "user3.png"
+    }
+  ],
+  "channels": [
+    {
+      "docId": "770e97ba-6071-4944-8012-fa77ba5533d8",
+      "name": "channel_1",
+      "description": "Community Channel."
+    },
+    {
+      "docId": "9f9e09d0-8aa2-4985-ae92-fa7c9f98c070",
+      "name": "channel_2",
+      "description": "Off-Topic Diskussionen."
+    },
+    {
+      "docId": "054d2f46-97e3-4716-9175-dea969880c0b",
+      "name": "channel_3",
+      "description": "Team Kommunikation."
+    },
+    {
+      "docId": "ab03ebb0-4564-4169-8686-08260f9a600d",
+      "name": "channel_4",
+      "description": "Team Kommunikation."
+    },
+    {
+      "docId": "072a3463-fa6e-4a86-9413-8a01225d3a76",
+      "name": "channel_5",
+      "description": "Community Channel."
+    },
+    {
+      "docId": "98626fd7-f528-45ea-bc5e-eeef628e266e",
+      "name": "channel_6",
+      "description": "Für Projektbesprechungen."
+    },
+    {
+      "docId": "1c5d995a-2e67-46da-997a-2586a63055df",
+      "name": "channel_7",
+      "description": "HR und Admin-Themen."
+    },
+    {
+      "docId": "4b71b225-1464-4d17-8a64-7a860153a8fc",
+      "name": "channel_8",
+      "description": "IT-Updates und Patches."
+    },
+    {
+      "docId": "fc707037-f678-4114-9c35-6767027eeeb1",
+      "name": "channel_9",
+      "description": "Off-Topic Diskussionen."
+    },
+    {
+      "docId": "ca47e3f3-1dfc-4308-8bb9-d3b17dc80025",
+      "name": "channel_10",
+      "description": "Marketing und Sales."
+    },
+    {
+      "docId": "7987e44d-1e90-4774-8e06-124d4692742c",
+      "name": "channel_11",
+      "description": "Technischer Support."
+    },
+    {
+      "docId": "50a727ed-b1b6-42d9-8ea6-1f7f46007560",
+      "name": "channel_12",
+      "description": "Technischer Support."
+    },
+    {
+      "docId": "bd3bdf6e-4f26-403c-bf32-511ad19349b5",
+      "name": "channel_13",
+      "description": "Off-Topic Diskussionen."
+    },
+    {
+      "docId": "466c03c4-547d-491c-a437-1c92eca94992",
+      "name": "channel_14",
+      "description": "HR und Admin-Themen."
+    },
+    {
+      "docId": "60f967d4-d660-485c-b608-cdfdaab8f746",
+      "name": "channel_15",
+      "description": "Technischer Support."
+    },
+    {
+      "docId": "26d1ff80-e9cc-4536-a90c-9d500f1e8407",
+      "name": "channel_16",
+      "description": "Für Projektbesprechungen."
+    },
+    {
+      "docId": "77dd145b-c532-4b64-9080-2c6477a834eb",
+      "name": "channel_17",
+      "description": "Für Projektbesprechungen."
+    },
+    {
+      "docId": "35b054e8-af6b-4e11-b566-bdef37f16b36",
+      "name": "channel_18",
+      "description": "IT-Updates und Patches."
+    },
+    {
+      "docId": "86ed6b4a-059a-4854-b7c6-7d2299960399",
+      "name": "channel_19",
+      "description": "Off-Topic Diskussionen."
+    },
+    {
+      "docId": "7368315e-8af9-48d9-95c1-673d40dca878",
+      "name": "channel_20",
+      "description": "Technischer Support."
+    },
+    {
+      "docId": "bac04077-956f-42ab-a80d-665ecb751491",
+      "name": "channel_21",
+      "description": "IT-Updates und Patches."
+    },
+    {
+      "docId": "c5ad4bba-37a2-420c-8bc9-4d1ade82ae6e",
+      "name": "channel_22",
+      "description": "Für Projektbesprechungen."
+    },
+    {
+      "docId": "15a549fc-c668-49ce-adc0-e201a348e7d1",
+      "name": "channel_23",
+      "description": "Off-Topic Diskussionen."
+    },
+    {
+      "docId": "9af8d2cb-5e7d-4a10-b70d-72ad6e7ed26d",
+      "name": "channel_24",
+      "description": "Marketing und Sales."
+    },
+    {
+      "docId": "20b444b1-dff8-4753-8099-a13a43bec07f",
+      "name": "channel_25",
+      "description": "HR und Admin-Themen."
+    },
+    {
+      "docId": "d15d0cb6-0626-4fe2-a579-de29754a8b2f",
+      "name": "channel_26",
+      "description": "Community Channel."
+    },
+    {
+      "docId": "00324251-5dcd-4b20-9155-573d780f188d",
+      "name": "channel_27",
+      "description": "Community Channel."
+    },
+    {
+      "docId": "f69a3d5d-a2f7-4402-b836-8e8c4f22fce5",
+      "name": "channel_28",
+      "description": "Dies ist ein allgemeiner Channel."
+    },
+    {
+      "docId": "86b9b4a7-a4d7-443c-b00e-9fa25ea1bb58",
+      "name": "channel_29",
+      "description": "Kreativer Austausch."
+    },
+    {
+      "docId": "6599f659-b3f5-4bee-be0c-7f43de3c853b",
+      "name": "channel_30",
+      "description": "Dies ist ein allgemeiner Channel."
+    },
+    {
+      "docId": "86d305c4-cd83-4436-b682-38ae36acab68",
+      "name": "channel_31",
+      "description": "Off-Topic Diskussionen."
+    },
+    {
+      "docId": "29c935b1-9f13-458b-aee9-52ef07969b2f",
+      "name": "channel_32",
+      "description": "HR und Admin-Themen."
+    },
+    {
+      "docId": "0ab3561a-d791-47c3-be76-516ffeced334",
+      "name": "channel_33",
+      "description": "Technischer Support."
+    },
+    {
+      "docId": "5fceddc3-b4c0-49b7-a6fd-273502dc673e",
+      "name": "channel_34",
+      "description": "Für Projektbesprechungen."
+    },
+    {
+      "docId": "a61eaa9d-3adc-47cc-a5e6-c55cde60d8ef",
+      "name": "channel_35",
+      "description": "HR und Admin-Themen."
+    },
+    {
+      "docId": "125d6ad7-4989-4511-ac01-28f97a6736f5",
+      "name": "channel_36",
+      "description": "Off-Topic Diskussionen."
+    },
+    {
+      "docId": "7549bbd1-84c5-4a1d-9102-be896e903f5a",
+      "name": "channel_37",
+      "description": "Für Projektbesprechungen."
+    },
+    {
+      "docId": "f5e9b979-cc29-48d2-8f00-b398e8e9160d",
+      "name": "channel_38",
+      "description": "Community Channel."
+    },
+    {
+      "docId": "2299026b-481e-48cd-a3e1-4b609f5cef2c",
+      "name": "channel_39",
+      "description": "Team Kommunikation."
+    },
+    {
+      "docId": "805e1874-ba75-4c8c-8e29-21055fe3ff71",
+      "name": "channel_40",
+      "description": "IT-Updates und Patches."
+    },
+    {
+      "docId": "f4d1fe33-683f-42ab-9a2f-457b6a3b674e",
+      "name": "channel_41",
+      "description": "IT-Updates und Patches."
+    },
+    {
+      "docId": "f45af8dc-e72e-402e-82f7-efbb3e5af2dd",
+      "name": "channel_42",
+      "description": "Technischer Support."
+    },
+    {
+      "docId": "6c1c92ac-9a2c-4fc6-8757-f9cab275f5bc",
+      "name": "channel_43",
+      "description": "Technischer Support."
+    },
+    {
+      "docId": "b1594cdb-41b1-4870-b64c-70eabe00a80d",
+      "name": "channel_44",
+      "description": "IT-Updates und Patches."
+    },
+    {
+      "docId": "6de6470f-f7c0-4d2b-bee8-a5826536c524",
+      "name": "channel_45",
+      "description": "Technischer Support."
+    },
+    {
+      "docId": "d16794c2-a40e-4af8-9fc6-3938b1863fb9",
+      "name": "channel_46",
+      "description": "Off-Topic Diskussionen."
+    },
+    {
+      "docId": "93d9165a-f5e3-430c-b638-478b1f9ec7bd",
+      "name": "channel_47",
+      "description": "IT-Updates und Patches."
+    },
+    {
+      "docId": "729f9893-164d-4244-9efd-e14b2cb17fdd",
+      "name": "channel_48",
+      "description": "Für Projektbesprechungen."
+    },
+    {
+      "docId": "ef5c6d8a-af4c-4b66-89a2-26a77bc11050",
+      "name": "channel_49",
+      "description": "Kreativer Austausch."
+    },
+    {
+      "docId": "b950fb6b-fcae-4053-ac5d-f338492609ac",
+      "name": "channel_50",
+      "description": "Kreativer Austausch."
+    }
+  ]
+}
