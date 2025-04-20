@@ -128,4 +128,23 @@ export class MemberComponent implements OnInit, OnChanges {
     this.loadMembers();
     this.showAddUserModal = false;
   }
+
+
+  async removeMember(user: User) {
+    const channelRef = doc(this.firestore, 'channels', this.channelIdInput);
+    const channelSnap = await getDoc(channelRef);
+  
+    if (!channelSnap.exists()) return;
+  
+    const data = channelSnap.data();
+    const currentMembers: string[] = Array.isArray(data['member']) ? data['member'] : [];
+  
+    const updatedMembers = currentMembers.filter(id => id !== user.docId);
+  
+    await updateDoc(channelRef, {
+      member: updatedMembers
+    });
+  
+    this.loadMembers(); // Reload Members
+  }
 }

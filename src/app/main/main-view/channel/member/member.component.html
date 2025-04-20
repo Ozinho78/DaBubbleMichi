@@ -16,6 +16,16 @@
             <div class="member-list">
                 <span *ngFor="let member of members">{{ member.name }}
                   <span *ngIf="userLoggedIn == member.docId">&nbsp;(Du)</span>
+                  <span class="delete-icon" (click)="removeMember(member)"><svg class="delete-icon" viewBox="0 0 20 20" (click)="removeMember(member)">
+                    <path
+                      d="M5 5L15 15M15 5L5 15"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  </span>
                 </span>
             </div>
             <!-- <div class="member-list">
@@ -47,6 +57,7 @@
                 <span>{{ user.name }}</span>
                 </div>
             </div>
+
             <button class="close-modal" (click)="showAddUserModal = false">Abbrechen</button>
             </div>
 
