@@ -86,10 +86,12 @@ export class MemberComponent implements OnInit, OnChanges {
   }
 
   close(event?: Event) {
-    if (!event || event.target === event.currentTarget) {
-      this.isOpen = false;
-      this.showUserList = false;
-    }
+    // if (!event || event.target === event.currentTarget) {
+    //   this.isOpen = false;
+    //   this.showUserList = false;
+    // }
+    this.isOpen = false;
+    this.showUserList = false;
   }
 
   async openModalAddUser() {

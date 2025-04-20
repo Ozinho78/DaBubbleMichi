@@ -1,6 +1,6 @@
 <div *ngIf="isOpen" class="overlay-backdrop" (click)="close($event)"></div>
-<div *ngIf="isOpen" class="member-overlay">
-    <div class="member-cont">
+<div *ngIf="isOpen" class="member-overlay" (click)="close($event)">
+    <div class="member-cont" (click)="$event.stopPropagation()">
         <div class="header">
             <span>Mitglieder</span>
             <div class="close-btn-container">
