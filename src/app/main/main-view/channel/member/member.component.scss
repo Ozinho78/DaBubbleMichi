@@ -91,5 +91,86 @@
 }
 
 .member-list {
+    max-height: 250px;
+    overflow-y: scroll;
     @include m.flexBox(column, normal, normal, 15px);
 }
+
+
+
+
+// Mitglieder hinzufügen
+.add-user-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 99;
+  }
+  
+  .add-user-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 300px;
+    max-height: 400px;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    z-index: 101;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  
+    h4 {
+      margin: 0 0 8px;
+    }
+  
+    .user-list {
+      overflow-y: auto;
+      max-height: 250px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+  
+    .user-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 6px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s ease;
+  
+      &:hover {
+        // background: #f0f0f0;
+        background: v.$purple_3;
+      }
+  
+      .avatar {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  
+    .close-modal {
+      margin-top: auto;
+      align-self: flex-end;
+      background: transparent;
+      border: none;
+      color: #333;
+      cursor: pointer;
+      font-size: 14px;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }

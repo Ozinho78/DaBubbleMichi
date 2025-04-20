@@ -14,7 +14,9 @@
         </div>
         <div class="members">
             <div class="member-list">
-                <span *ngFor="let member of members">{{ member.name }}</span>
+                <span *ngFor="let member of members">{{ member.name }}
+                  <span *ngIf="userLoggedIn == member.docId">&nbsp;(Du)</span>
+                </span>
             </div>
             <!-- <div class="member-list">
                 <span>Frederick Beck (Du)</span>
@@ -32,6 +34,22 @@
                 </div>
                 <span>Mitglieder hinzufügen</span>
             </div>
+
+            <!-- Modal Overlay -->
+            <div class="add-user-backdrop" *ngIf="showAddUserModal" (click)="showAddUserModal = false"></div>
+
+            <!-- Modal Content -->
+            <div class="add-user-modal" *ngIf="showAddUserModal">
+            <h4>Mitglied hinzufügen</h4>
+            <div class="user-list">
+                <div *ngFor="let user of availableUsers" class="user-item" (click)="addMember(user)">
+                <img [src]="'img/avatar/' + user.avatar" alt="avatar" class="avatar">
+                <span>{{ user.name }}</span>
+                </div>
+            </div>
+            <button class="close-modal" (click)="showAddUserModal = false">Abbrechen</button>
+            </div>
+
         </div>
     </div>
 </div>

@@ -13,7 +13,7 @@ import { AddUserComponent } from '../add-user/add-user.component';
 import { Channel } from '../../../../../models/channel.model';
 import { UserService } from '../../../../../services/user.service';
 import { User } from '../../../../../models/user.model';
-import { doc, Firestore, getDoc } from '@angular/fire/firestore';
+import { collection, doc, Firestore, getDoc, getDocs, updateDoc } from '@angular/fire/firestore';
 
 @Component({
   selector: 'app-member',
@@ -33,6 +33,10 @@ export class MemberComponent implements OnInit, OnChanges {
   selectedChannelId: string = '';
   members: User[] = [];
   userLoggedIn = localStorage.getItem('user-id') || '';
+  allUsers: User[] = [];
+  availableUsers: User[] = [];
+  showAddUserModal = false;
+
 
   constructor(private firestore: Firestore) {
     setTimeout(() => {
@@ -47,7 +51,8 @@ export class MemberComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    if (changes['channelId'] && this.channelIdInput) {
+    // console.log("ChannelId :" , this.channelIdInput);
+    if (changes['channelIdInput']) {
       this.loadMembers();
     }
   }
@@ -87,8 +92,40 @@ export class MemberComponent implements OnInit, OnChanges {
     }
   }
 
-  openModalAddUser() {
-    // tbc
-    this.modalAddUser.openModal();
+  async openModalAddUser() {
+    this.showAddUserModal = true;
+  
+    const userSnaps = await getDocs(collection(this.firestore, 'users'));
+    const users: User[] = [];
+  
+    userSnaps.forEach((docSnap) => {
+      users.push({ docId: docSnap.id, ...(docSnap.data() as Omit<User, 'docId'>) });
+    });
+  
+    this.allUsers = users;
+  
+    // Nur User anzeigen, die noch nicht Mitglied sind
+    const memberIds = this.members.map((m) => m.docId);
+    this.availableUsers = this.allUsers.filter(user => !memberIds.includes(user.docId));
+  }
+
+  async addMember(user: User) {
+    const channelRef = doc(this.firestore, 'channels', this.channelIdInput);
+    const channelSnap = await getDoc(channelRef);
+  
+    if (!channelSnap.exists()) return;
+  
+    const data = channelSnap.data();
+    const currentMembers: string[] = Array.isArray(data['member']) ? data['member'] : [];
+  
+    const updatedMembers = [...currentMembers, user.docId];
+  
+    await updateDoc(channelRef, {
+      member: updatedMembers
+    });
+  
+    // neu laden
+    this.loadMembers();
+    this.showAddUserModal = false;
   }
 }
