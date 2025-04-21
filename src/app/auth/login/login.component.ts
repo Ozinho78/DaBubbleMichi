@@ -57,7 +57,7 @@ export class LoginComponent implements OnInit {
 
   guestLogin() {
     localStorage.setItem('token', 'dummy-token');
-    localStorage.setItem('user-id', '3Ar6MCcSeBN0wMmNaJ4s');
+    localStorage.setItem('user-id', '8cKzj0cKQbU8vBL8Uen7');
     this.router.navigate(['/main']);
   }
 
